@@ -1,0 +1,402 @@
+/**
+
+Theme Name: hedi
+
+Author: Brainstorm Force
+
+Author URI: http://wpastra.com/about/
+
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain: hedi
+
+Template: astra
+
+*/
+
+.wlm_regform_improved {
+	min-width: auto;
+	max-width: 100%;
+	width: 550px;
+	margin-bottom: 15px!important;
+}
+
+.wlm_show_new_regform .wlm_regform_container {
+	border: 0;
+	padding: 0;
+}
+
+#frm_new_user_reg .wlm_form_group {
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	-ms-align-items: flex-end;
+	align-items: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#frm_new_user_reg .wlm_form_label {
+	margin-left: 0;
+	width: auto;
+	float: none;
+	-webkit-flex: 0 0 30%;
+	-moz-flex: 0 0 30%;
+	-ms-flex: 0 0 30%;
+	-o-flex: 0 0 30%;
+	flex: 0 0 30%;
+	color: #000;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 0 10px 15px;
+}
+
+#frm_new_user_reg .fld {
+	-webkit-flex: 0;
+	-moz-flex: 0;
+	-ms-flex: 0;
+	-o-flex: 0;
+	flex: 0;
+	flex-basis: 70%;
+	margin-bottom: 10px;
+	background-color: #f2eee1;
+	border-radius: 10px;
+	border: 0;
+	padding: 16px 25px;
+	box-shadow: none;
+}
+
+#frm_new_user_reg p.wlm_field_description {
+	line-height: 1.2;
+	font-size: 16px;
+	color: #000;
+	letter-spacing: -1px;
+	text-align: left;
+	margin: 0;
+	-webkit-flex: 0 0 60%;
+	-moz-flex: 0 0 60%;
+	-ms-flex: 0 0 60%;
+	-o-flex: 0 0 60%;
+	flex: 0 0 60%;
+}
+
+#frm_new_user_reg p.submit {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0;
+}
+
+#frm_new_user_reg p.submit:before {
+	-webkit-flex: 0 0 30%;
+	-moz-flex: 0 0 30%;
+	-ms-flex: 0 0 30%;
+	-o-flex: 0 0 30%;
+	flex: 0 0 30%;
+	content: '';
+}
+
+#frm_new_user_reg input.submit {
+	background: #af3667;
+	border: 0;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	padding: 8px 35px 7px;
+}
+
+#primary.primary.content-area.for-form-styles header.entry-header.ast-no-thumbnail.ast-no-meta {
+	display: none;
+}
+
+.new-top-image {
+	height: 94px;
+	width: 100%;
+	background-image: url("http://hedi.mysite1.co.il/wp-content/uploads/2018/04/background-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wlm_regform_existing_user.wlm_regform_container .wlm_form_group {
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	-ms-align-items: flex-end;
+	align-items: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.wlm_regform_existing_user.wlm_regform_container .wlm_form_label {
+	margin-left: 0;
+	width: auto;
+	float: none;
+	-webkit-flex: 0 0 30%;
+	-moz-flex: 0 0 30%;
+	-ms-flex: 0 0 30%;
+	-o-flex: 0 0 30%;
+	flex: 0 0 30%;
+	color: #000;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 0 10px 15px;
+}
+
+.wlm_regform_existing_user.wlm_regform_container .fld {
+	-webkit-flex: 0;
+	-moz-flex: 0;
+	-ms-flex: 0;
+	-o-flex: 0;
+	flex: 0;
+	flex-basis: 70%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: inset 0 0 0 50px #f2eee1!important;
+	border: 0!important;
+	padding: 16px 25px;
+}
+
+.wlm_regform_existing_user.wlm_regform_container p.wlm_field_description {
+	line-height: 1.2;
+	font-size: 16px;
+	color: #000;
+	letter-spacing: -1px;
+	text-align: left;
+	margin: 0;
+	-webkit-flex: 0 0 60%;
+	-moz-flex: 0 0 60%;
+	-ms-flex: 0 0 60%;
+	-o-flex: 0 0 60%;
+	flex: 0 0 60%;
+}
+
+.wlm_regform_existing_user.wlm_regform_container p.submit {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0;
+}
+
+.wlm_regform_existing_user.wlm_regform_container p.submit:before {
+	-webkit-flex: 0 0 30%;
+	-moz-flex: 0 0 30%;
+	-ms-flex: 0 0 30%;
+	-o-flex: 0 0 30%;
+	flex: 0 0 30%;
+	content: '';
+}
+
+.wlm_regform_existing_user.wlm_regform_container input.submit {
+	background: #af3667;
+	border: 0;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	padding: 8px 35px 7px;
+}
+
+.wlm_regform_existing_user.wlm_regform_container {
+	position: relative;
+}
+
+.wlm_regform_existing_user.wlm_regform_container .forgotpassword {
+	position: absolute;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+
+	#frm_new_user_reg p.wlm_field_description {
+		position: absolute;
+		top: 124px;
+		width: 44%;
+	}
+
+	#frm_new_user_reg .wlm_form_label {
+		font-size: 16px;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container p.wlm_field_description {
+		position: absolute;
+		top: 124px;
+		width: 44%;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container .wlm_form_label {
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.page__top-image {
+		height: 50px
+	}
+
+	#frm_new_user_reg .wlm_form_label {
+		font-size: 16px;
+		-webkit-flex: 0 0 40%;
+		-moz-flex: 0 0 40%;
+		-ms-flex: 0 0 40%;
+		-o-flex: 0 0 40%;
+		flex: 0 0 40%;
+	}
+
+	#frm_new_user_reg .fld {
+		-webkit-flex: 0 0 60%;
+		-moz-flex: 0 0 60%;
+		-ms-flex: 0 0 60%;
+		-o-flex: 0 0 60%;
+		flex: 0 0 60%;
+	}
+
+	#frm_new_user_reg p.submit {
+		margin-top: 20px;
+		justify-content: center;
+	}
+
+	#frm_new_user_reg p.submit:before {
+		display: none;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container .wlm_form_label {
+		font-size: 16px;
+		-webkit-flex: 0 0 40%;
+		-moz-flex: 0 0 40%;
+		-ms-flex: 0 0 40%;
+		-o-flex: 0 0 40%;
+		flex: 0 0 40%;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container .fld {
+		-webkit-flex: 0 0 60%;
+		-moz-flex: 0 0 60%;
+		-ms-flex: 0 0 60%;
+		-o-flex: 0 0 60%;
+		flex: 0 0 60%;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container p.submit {
+		margin-top: 20px;
+		justify-content: center;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container p.submit:before {
+		display: none;
+	}
+
+}
+
+@media (max-width: 419px) {
+
+	#frm_new_user_reg .fld,#frm_new_user_reg .wlm_form_label {
+		-webkit-flex: 0 0 50%;
+		-moz-flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		-o-flex: 0 0 50%;
+		flex: 0 0 50%;
+	}
+
+	#frm_new_user_reg p.wlm_field_description {
+		-webkit-flex: 0 0 100%;
+		-moz-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		-o-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container .fld,#frm_new_user_reg .wlm_form_label {
+		-webkit-flex: 0 0 50%;
+		-moz-flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		-o-flex: 0 0 50%;
+		flex: 0 0 50%;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container p.wlm_field_description {
+		-webkit-flex: 0 0 100%;
+		-moz-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		-o-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+
+	.wlm_regform_existing_user.wlm_regform_container .forgotpassword {
+		left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+		transform: translateX(-50%);
+	    bottom: -50px;
+	}
+
+}
+
+.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-text {
+    float: right;
+    width: 32%;
+    width: -webkit-calc(50% - 66px);
+	width: -moz-calc(50% - 66px);
+	width: calc(50% - 66px);
+    margin-left: 10px;
+}
+
+.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-submit {
+    display: inline-block;
+    width: auto;
+    float: right;
+}
+
+@media screen and (max-width: 1024px) {
+	.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-text:first-child {
+	    margin-left: 10px;
+	}
+
+	.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-text {
+		width: 47%;
+		width: -webkit-calc(50% - 5px);
+		width: -moz-calc(50% - 5px);
+	    width: calc(50% - 5px);
+	    margin-left: 0;
+	}
+
+	.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-submit {
+	    display: block;
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-text:first-child {
+	    margin-left: 0;
+	}
+
+	.elementor-widget-login[data-element_type="login.default"] form.elementor-login.elementor-form .elementor-field-type-text {
+	    width: 100%;
+	    float: none;
+	}
+}
